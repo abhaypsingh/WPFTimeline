@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{F8ED420C-B375-4929-B8D3-5AB3BD6F7A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{E50A1F45-D6B9-4859-8CEA-7897C665DFD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{8C9E5C33-8C2C-4CF3-88D8-BCE64DA69550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{1EE72A80-62CA-40BE-8E86-DF5982447068}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{E3F946B6-81BE-4256-8CF3-D6C82DE99456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{BF0AEA7E-3342-4DE6-9799-9CE8C4DF0147}"
+	ProjectSection(SolutionItems) = preProject
+		Nuget\Tools\publish.cmd = Nuget\Tools\publish.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Package", "Package", "{9E695452-F143-4893-8F2E-945438A4C964}"
+	ProjectSection(SolutionItems) = preProject
+		Nuget\Package\Timeline.nuspec = Nuget\Package\Timeline.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{430925DB-7683-4C58-A9D1-3C59B0E666E1}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\AsmInfo.cs = Shared\AsmInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelineLib", "Library\WPF\TimelineLib\TimelineLib.csproj", "{D2188E92-117C-4E93-A759-5CC251DC226D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTimelineExample", "Examples\WPF\WpfTimelineExample\WpfTimelineExample.csproj", "{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTimelineToggleBands", "Examples\WPF\WPFTimelineToggleBands\WPFTimelineToggleBands.csproj", "{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelineExLib", "Library\WPF\TimelineExLib\TimelineExLib.csproj", "{BB090A20-FF73-4AED-B74A-92AD7E9586D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTimelineExExample", "Examples\WPF\WpfTimelineExExample\WpfTimelineExExample.csproj", "{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D2188E92-117C-4E93-A759-5CC251DC226D}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01}.Release|x86.ActiveCfg = Release|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Debug|x86.ActiveCfg = Debug|x86
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Debug|x86.Build.0 = Debug|x86
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Release|Any CPU.ActiveCfg = Release|x86
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Release|x86.ActiveCfg = Release|x86
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8ED420C-B375-4929-B8D3-5AB3BD6F7A7A} = {1EE72A80-62CA-40BE-8E86-DF5982447068}
+		{8C9E5C33-8C2C-4CF3-88D8-BCE64DA69550} = {E50A1F45-D6B9-4859-8CEA-7897C665DFD0}
+		{BF0AEA7E-3342-4DE6-9799-9CE8C4DF0147} = {E3F946B6-81BE-4256-8CF3-D6C82DE99456}
+		{9E695452-F143-4893-8F2E-945438A4C964} = {E3F946B6-81BE-4256-8CF3-D6C82DE99456}
+		{D2188E92-117C-4E93-A759-5CC251DC226D} = {8C9E5C33-8C2C-4CF3-88D8-BCE64DA69550}
+		{2D4573C3-CE86-4BC7-8A4B-4BED159D0B01} = {F8ED420C-B375-4929-B8D3-5AB3BD6F7A7A}
+		{B8529206-C8A2-430B-B99D-8D6AB6BA3C1D} = {F8ED420C-B375-4929-B8D3-5AB3BD6F7A7A}
+		{BB090A20-FF73-4AED-B74A-92AD7E9586D9} = {8C9E5C33-8C2C-4CF3-88D8-BCE64DA69550}
+		{CAA2BBCA-650B-44AE-B88D-05EFBAC181FE} = {F8ED420C-B375-4929-B8D3-5AB3BD6F7A7A}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Timeline.vsmdi
+	EndGlobalSection
+EndGlobal
