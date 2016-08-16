@@ -4,7 +4,7 @@
     <PublishUrlHistory>publish\</PublishUrlHistory>
     <InstallUrlHistory>https://raw.githubusercontent.com/abhaypsingh/WPFTimeline/master/Examples/WPF/WpfTimelineExExample/publish/|https://raw.githubusercontent.com/refactorsaurusrex/ClickOnceTest/master/MySolution/MyProject/publish/</InstallUrlHistory>
     <SupportUrlHistory />
-    <UpdateUrlHistory />
+    <UpdateUrlHistory>https://raw.githubusercontent.com/abhaypsingh/WPFTimeline/master/Examples/WPF/WpfTimelineExExample/publish/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>

@@ -16,5 +16,5 @@ DEBUG;TRACE
 12-425035913
 EventDetailsWindow.xaml;Themes\Constants.xaml;Themes\Generic.xaml;Themes\NavigationButtons.xaml;Themes\ToolboxButton.xaml;
 
-True
+False
 
