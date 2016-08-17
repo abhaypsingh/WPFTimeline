@@ -16,5 +16,5 @@ DEBUG;TRACE
 13-772414707
 Themes\Constants.xaml;Themes\Generic.xaml;Themes\NavigationStyle.xaml;Themes\TimelineStyle.xaml;Themes\ToolboxButtonStyle.xaml;
 
-False
+True
 

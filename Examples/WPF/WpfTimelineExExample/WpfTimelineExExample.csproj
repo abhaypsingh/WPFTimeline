@@ -34,7 +34,7 @@
     <InstallUrl>https://raw.githubusercontent.com/abhaypsingh/WPFTimeline/master/Examples/WPF/WpfTimelineExExample/publish/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/abhaypsingh/WPFTimeline/master/Examples/WPF/WpfTimelineExExample/publish/</UpdateUrl>
     <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>4.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>5.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
